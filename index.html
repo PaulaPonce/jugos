@@ -1,0 +1,58 @@
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jugos Jugosos</title>
+    <link rel="icon" 
+      type="image/ico"
+      href="img/favicon.ico"> <!--esto es el ícono que se ve en el browser-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Prompt:200,300,400,500" rel="stylesheet">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="css/registro.css">
+  </head>
+  <body>
+    <section class="form-container">
+      <div class="container-fluid">
+        <form class="form-signup">
+          <h2 id="form-signup-heading">Jugos Locos</h2>
+          <div class="name-container input-box">
+            <label for="name" class="sr-only">Nombre</label>
+            <input type="text" id="name" class="form-control" 
+            placeholder="Ingrese su nombre"> <!-- placeholder: es el txt de la caja -->
+          </div>
+          <div class="form-group">
+            <label for="inputPassword" class="sr-only">
+              Contraseña
+            </label>
+            <input type="password" id="input-password" class="form-control" placeholder="Ingrese su contraseña">
+          </div>
+          <div class="form-group">
+            <select class="form-control">
+              <option value="0">Selecciona tu tipo de jugo</option>
+              <option value="urbana">Piña</option>
+              <option value="treking">Naranja-Jengibre</option>
+              <option value="electrica">Kiwi-Naranja</option>
+              <option value="estatica">Plátano</option>
+              <option value="estatica">Frambuesa</option>
+              <option value="estatica">Mango</option>
+              <option value="estatica">Berries</option>
+            </select>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="remember-me">
+              <span>Deseo recibir información vía email</span>
+            </label>
+          </div>
+          <button class="btn btn-lg btn-primary btn-block submit-btn" type="submit" onclick="validar()">Registrar</button>
+        </form>
+      </div>
+    </section>
+    <!-- /container -->
+    <script type='text/javascript' src='js/main.js'></script>
+    <script type='text/javascript' src='js/donottouchthisfile.js'></script>
+  </body>
+</html>
